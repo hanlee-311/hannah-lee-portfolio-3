@@ -2,7 +2,7 @@ body {
     background-color: #e1f5fe;
 }
 
-h1, h2, h3, h4, h5 {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Unica One', cursive;
 }
 
@@ -73,6 +73,9 @@ p {
 /* My work Styling */
 .past-work-container {
     margin-top: 4em;
+    position: relative;
+    font-family: 'Unica One', cursive;
+    font-size:x-large;
 }
 
 .past-work {
@@ -82,6 +85,34 @@ p {
 .past-work:hover {
     opacity: 1;
     transition: 0.3s;
+}
+
+.work-title {
+    position: absolute;
+}
+
+#one {
+    top: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+}
+
+#two {
+    
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+#three {
+   
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
+#four {
+    
+    z-index: 1;
+    transform: translate(-50%, -50%);
 }
 
 .line:before {
