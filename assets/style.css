@@ -131,14 +131,17 @@ p {
     border: 1px solid rgb(105, 38, 38);
     content: '';
     height: 0px;
-    width: 20%;
-    margin-top: -1em;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-right: 8em;
+    width: 30%;
+    bottom: 0;
+    left: 35%;
     display: block;
     position: absolute;
     z-index: 5;
+}
+
+/* Footer Styling */
+.page-footer {
+    background-color: #00adef;
 }
 
 /*Media Size Styling*/
