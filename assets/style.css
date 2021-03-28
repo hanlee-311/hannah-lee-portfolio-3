@@ -3,5 +3,15 @@
 }
 
 body {
-    background-color: rgb(245, 232, 204);
+    background-color: #e1f5fe;
+}
+
+.past-work {
+    border-radius: 50%;
+    opacity: .5;
+}
+
+.past-work:hover {
+    opacity: 1;
+    transition: 0.3s;
 }
