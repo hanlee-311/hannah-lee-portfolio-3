@@ -2,9 +2,14 @@ body {
     background-color: #e1f5fe;
 }
 
+h1, h2, h3, h4, h5 {
+    font-family: 'Unica One', cursive;
+}
+
 /* Nav Styling */
 nav {
     background-color: #00adef;  
+    font-family: 'Unica One', cursive;
 }
 
 .adjust {
@@ -26,6 +31,10 @@ nav {
 
 .section-2 {
     height: 1500px;
+}
+
+.name {
+    font-family: 'Rock Salt', cursive;
 }
 
 /* About Me Styling */
