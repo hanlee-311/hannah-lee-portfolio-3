@@ -35,6 +35,18 @@ nav {
 
 .name {
     font-family: 'Rock Salt', cursive;
+    margin-left: 1em;
+    margin-top: 3em;
+    color: #ffd54f;
+    text-shadow: 2px 2px 5px black;
+}
+
+.subtitle {
+    font-size: 40px;
+    margin-left: 3em;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 2px 2px 5px black;
 }
 
 /* About Me Styling */
@@ -115,7 +127,7 @@ p {
     transform: translate(-50%, -50%);
 }
 
-.line:before {
+.line:after {
     border: 1px solid rgb(105, 38, 38);
     content: '';
     height: 0px;
