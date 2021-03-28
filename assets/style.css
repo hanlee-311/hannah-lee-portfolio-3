@@ -13,7 +13,7 @@ nav {
 }
 
 .secondary-logo {
-    display: none;
+    visibility: hidden;
 }
 
 .adjust {
