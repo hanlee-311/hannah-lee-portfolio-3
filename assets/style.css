@@ -3,12 +3,12 @@ body {
 }
 
 /* Nav Styling */
-.adjust {
-    margin-top: -9px;
+nav {
+    background-color: #00adef;  
 }
 
-.transparent-bg {
-    background-color: rgb(172, 172, 243);
+.adjust {
+    margin-top: -9px;
 }
 
 .nav-hover:hover {
