@@ -60,3 +60,10 @@ nav {
     display: block;
     position: absolute;
 }
+
+/*Media Size Styling*/
+@media only screen and (max-width: 988px) {
+    .sidenav-trigger {
+        display:block !important;; 
+    }
+}
