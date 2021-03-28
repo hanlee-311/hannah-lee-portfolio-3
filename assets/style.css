@@ -13,7 +13,7 @@ nav {
 }
 
 .secondary-logo {
-    visibility: hidden;
+    display: none;
 }
 
 .adjust {
@@ -58,6 +58,10 @@ nav {
     position: relative;
 }
 
+.small-screen {
+    display:none;
+}
+
 .profile-pic {
     margin-top: 2.5em;
 }
@@ -70,6 +74,7 @@ p {
 
 .school {
     margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .degree {
@@ -177,5 +182,15 @@ body {
 
     .secondary-logo {
         visibility: visible;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .small-screen {
+        display: contents;
+    }
+
+    .big-screen {
+        display: none;
     }
 }
