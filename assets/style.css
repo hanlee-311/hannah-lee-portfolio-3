@@ -1,15 +1,25 @@
-.transparent-bg {
-    background-color: rgb(172, 172, 243);
-}
-
 body {
     background-color: #e1f5fe;
 }
 
+/* Nav Styling */
 .adjust {
     margin-top: -9px;
 }
 
+.transparent-bg {
+    background-color: rgb(172, 172, 243);
+}
+
+.nav-hover:hover {
+    color: #ffd54f;
+}
+
+.adjust:hover {
+    color: #ffd54f;
+}
+
+/* Parallax Styling */
 .parallax-container {
     height: 700px;
 }
@@ -18,10 +28,12 @@ body {
     height: 1500px;
 }
 
+/* About Me Styling */
 .profile-image {
     border-radius: 50%;
 }
 
+/* My work Styling */
 .past-work-container {
     margin-top: 4em;
 }
