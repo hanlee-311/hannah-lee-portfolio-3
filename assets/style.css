@@ -6,6 +6,10 @@ body {
     background-color: #e1f5fe;
 }
 
+.section-2 {
+    height: 1000px;
+}
+
 .profile-image {
     border-radius: 50%;
 }
