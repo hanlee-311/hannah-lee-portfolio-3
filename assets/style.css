@@ -6,6 +6,10 @@ body {
     background-color: #e1f5fe;
 }
 
+.profile-image {
+    border-radius: 50%;
+}
+
 .past-work {
     border-radius: 50%;
     opacity: .5;
@@ -14,4 +18,17 @@ body {
 .past-work:hover {
     opacity: 1;
     transition: 0.3s;
+}
+
+.line:before {
+    border: 1px solid rgb(105, 38, 38);
+    content: '';
+    height: 0px;
+    width: 20%;
+    margin-top: -1em;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-right: 8em;
+    display: block;
+    position: absolute;
 }
