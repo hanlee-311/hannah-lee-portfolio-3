@@ -4,6 +4,7 @@ let repoList = document.getElementById('repo')
 function getApi() {
     fetch(repoApi)
       .then(function (response) {
+        console.log(response)
         return response.json();
       })
       .then(function (data) {
