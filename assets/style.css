@@ -12,6 +12,10 @@ nav {
     font-family: 'Unica One', cursive;
 }
 
+.secondary-logo {
+    visibility: hidden;
+}
+
 .adjust {
     margin-top: -9px;
 }
@@ -163,5 +167,15 @@ body {
 @media only screen and (max-width: 988px) {
     .sidenav-trigger {
         display:block !important;; 
+    }
+}
+
+@media only screen and (max-width: 878px) {
+    .main-logo {
+        visibility: hidden;
+    }
+
+    .secondary-logo {
+        visibility: visible;
     }
 }
