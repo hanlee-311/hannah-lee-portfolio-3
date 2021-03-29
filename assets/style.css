@@ -120,6 +120,11 @@ nav {
     transition: 0.3s;
 }
 
+.past-work-container:hover #two,.past-work-container:hover #three,.past-work-container:hover #four, .past-work-container:hover #one {
+    display: none;
+    transition: 0.3s
+}
+
 .invisible {
     visibility: hidden;
 }
