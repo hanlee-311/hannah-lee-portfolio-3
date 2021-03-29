@@ -38,7 +38,7 @@ nav {
 }
 
 .section-3 {
-    height: 5000px;
+    height: 1700px;
 }
 
 .name {
@@ -225,7 +225,7 @@ body {
 
 @media only screen and (max-width: 850px) {
     .small-screen {
-        display: contents;
+        display: block;
     }
 
     .big-screen {
