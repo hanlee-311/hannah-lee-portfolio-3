@@ -37,6 +37,10 @@ nav {
     height: 1050px;
 }
 
+.section-3 {
+    height: 5000px;
+}
+
 .name {
     font-family: 'Rock Salt', cursive;
     margin-left: 1em;
@@ -225,5 +229,49 @@ body {
     
     p {
         margin: 1em 1em;
+    }
+
+    .past-work-container {
+        margin-top: 2em;
+    }
+
+    .text-wrapper {
+        position: absolute;
+        align-content: center;
+        margin-left: 24%;
+        margin-top: 7%;
+        font-size: 50px;
+        z-index: 1;
+        transform: translate(-50%,-50%);
+    }
+    
+    #two {
+        z-index: 1;
+        margin-left: 50%;
+        margin-top: 22%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-shadow: 2px 2px 5px black;
+    }
+    
+    #three {
+        margin-left: 50%;
+        margin-top: 22%;
+        z-index: 1;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-shadow: 2px 2px 5px black;
+    }
+    
+    #four {
+        margin-left: 50%;
+        margin-top: 22%;
+        z-index: 1;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        text-shadow: 2px 2px 5px black;
     }
 }
