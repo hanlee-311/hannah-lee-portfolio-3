@@ -66,9 +66,12 @@ nav {
     margin-top: 2.5em;
 }
 
-p {
-   line-height: 1.6;
-   margin-top: 1em;
+.about-me p {
+    line-height: 1.6;
+    margin-top: 1em;
+}
+
+.big-screen p {
    margin-left: 27%;
 }
 
@@ -113,32 +116,58 @@ p {
     transition: 0.3s;
 }
 
+.invisible {
+    visibility: hidden;
+}
+
 .work-title {
     position: absolute;
 }
 
-#one {
-    top: 60%;
-    transform: translate(-50%, -50%);
+.text-wrapper {
+    position: absolute;
+    align-content: center;
+    margin-left: 44%;
+    margin-top: 23%;
     font-size: 50px;
+    z-index: 1;
+    transform: translate(-50%,-50%);
+}
+
+.text-wrapper p {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 2px 2px 5px black;
 }
 
 #two {
-    
     z-index: 1;
+    margin-left: 50%;
+    margin-top: 16%;
     transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 2px 2px 5px black;
 }
 
 #three {
-   
+    margin-left: 25%;
+    margin-top: 16%;
     z-index: 1;
     transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 2px 2px 5px black;
 }
 
 #four {
-    
+    margin-left: 75%;
+    margin-top: 16%;
     z-index: 1;
     transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-shadow: 2px 2px 5px black;
 }
 
 .line:after {
@@ -192,5 +221,9 @@ body {
 
     .big-screen {
         display: none;
+    }
+    
+    p {
+        margin: 1em 1em;
     }
 }
